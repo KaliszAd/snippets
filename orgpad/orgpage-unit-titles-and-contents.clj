@@ -70,4 +70,4 @@
     (pprint/pprint opts-map)
     (if output
       (spit output processed-units)
-      (println processed-units))))
+      (println (str processed-units)))))
